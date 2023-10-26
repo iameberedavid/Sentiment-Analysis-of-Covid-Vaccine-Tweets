@@ -1,0 +1,10 @@
+gradio
+pandas
+numpy
+seaborn
+scikit-learn
+transformers
+gdown
+tabulate
+torch
+scipy
