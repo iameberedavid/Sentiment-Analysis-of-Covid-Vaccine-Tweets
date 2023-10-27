@@ -6,7 +6,7 @@ from scipy.special import softmax
 
 
 # Load the model components from huggingface
-model_path = 'gr8testgad-1/sentiment_analysis'
+model_path = 'iameberedavid/results'
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 config = AutoConfig.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
