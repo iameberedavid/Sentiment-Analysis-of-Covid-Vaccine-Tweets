@@ -26,8 +26,8 @@ def sentiment_analysis(text):
     text = preprocess(text)
 
     # PyTorch-based models
-    encoded_input = tokenizer(text, return_tensors='pt')
-    output = model(**encoded_input)
+    input = tokenizer(text, return_tensors='pt')
+    output = model(**input)
     scores_ = output[0][0].detach().numpy()
     scores_ = softmax(scores_)
 
