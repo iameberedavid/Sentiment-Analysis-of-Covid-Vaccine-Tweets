@@ -46,7 +46,7 @@ demo = gr.Interface(
     ['I like the covid vaccines'],
     ['I will not take the vaccines'],
     ["I'm not sure if I'll take the vaccination?"],
-    ['The covid vaccines are effective'],
+    ['Covid vaccines are effective'],
     ["I don't trust those vaccines"]
     ],
     title='SENTIMENT ANALYSIS FOR COVID VACCINATION',
