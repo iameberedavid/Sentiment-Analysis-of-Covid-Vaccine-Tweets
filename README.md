@@ -3,11 +3,18 @@
 
 Welcome to the **Sentiment Analysis Project** where we explore public opinions and establish the sentiment in them using pretrained, cutting-edge, deep learning models. These models will be deployed using Gradio to huggingface. Sentiment analysis is also known as opinion mining. It is the process of determining if the emotional tone or sentiment expressed in text data is positive, negative, or neutral.
 
-[![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-[![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)](./LICENSE)
-![Issues](https://img.shields.io/github/issues/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
-![PR](https://img.shields.io/github/issues-pr/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
-[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![Data Science](https://img.shields.io/badge/Data-Analysis-yellow)
+![Deep Learning](https://img.shields.io/badge/Machine-Learning-blueviolet)
+![Python Version](https://img.shields.io/badge/Python-3.11-blue)
+![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)
+
+## Prerequisites 📈
+
+Ensure that you install the following libraries in your Python environment or virtual environment:
+
+* Gradio
+* Transformers
+* Pytorch
 
 ## Overview 🖼
 
@@ -18,8 +25,6 @@ The public opinion on Covid is widely spread across neutral, positive, and negat
 Below is a preview showcasing the app's appearance.
 
 ![App](Images/App.png)
-
-* [ ] [Follow this tab to access the Deployed app on HuggingFace](https://huggingface.co/spaces/iameberedavid/Sentiment-Analysis-On-Covid-Vaccination)
 
 ## Key Features 💡
 
@@ -33,7 +38,9 @@ Here are the key features of the project:
 
 **Evaluation Metrics**: The model was evaluated using the F1_score to measure the effectiveness of the model.
 
-**Deployment with Gradio** : The fine-tuned model, along with its associated files, was deployed with Gradio. This allows the public to interact with the app and analyze sentiment in real-time with ease, and the resulting application was hosted on HuggingFace.
+**Deployment** : The fine-tuned model, along with its associated files, was deployed with Gradio. This allows the public to interact with the app and analyze sentiment in real-time with ease, and the resulting application was hosted on HuggingFace.
+
+* [ ] [Follow this link to access the deployed app on HuggingFace](https://huggingface.co/spaces/iameberedavid/Sentiment-Analysis-On-Covid-Vaccination)
 
 **Docker Containerization**:
 Docker was used to containerize the application to streamline the deployment process and enhance scalability.
