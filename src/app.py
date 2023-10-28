@@ -45,8 +45,8 @@ demo = gr.Interface(
     interpretation='default',
     examples=[
     ['The vaccines are cool'],
-    ['I will not take the vaccines'],
-    ["I don't know much about them"],
+    ["I don't know about the vaccines"],
+    ['Covid vaccines are not effective'],
     ['Covid vaccines are effective'],
     ["I don't trust those vaccines"]
     ],
