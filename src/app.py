@@ -56,4 +56,4 @@ demo = gr.Interface(
 )
 
 if __name__ == '__main__':
-    demo.launch(host='0.0.0.0',port=7860)
+    demo.launch()
