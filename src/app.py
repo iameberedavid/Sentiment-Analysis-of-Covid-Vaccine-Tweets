@@ -54,6 +54,4 @@ demo = gr.Interface(
     theme='default', 
     live=True 
 )
-
-if __name__ == '__main__':
-    demo.launch(inbrowser=True, show_error=True, share=True)
+demo.launch(inbrowser=True, show_error=True, share=True)
