@@ -43,9 +43,9 @@ demo = gr.Interface(
     outputs='label',
     interpretation='default',
     examples=[
-    ['I like the covid vaccines'],
+    ['The vaccines are cool'],
     ['I will not take the vaccines'],
-    ["I'm not sure if I'll take the vaccination?"],
+    ["I don't know much about them"],
     ['Covid vaccines are effective'],
     ["I don't trust those vaccines"]
     ],
