@@ -1,7 +1,7 @@
 # Sentiment Analysis Using Pretrained Deep Learning Models 💡
 
 
-Welcome to the **Sentiment Analysis Project** where we explore public opinions and establish the sentiment in them using pretrained, cutting-edge, deep learning models. These models will be deployed using Gradio to huggingface. Sentiment analysis is also known as opinion mining. It is the process of determining if the emotional tone or sentiment expressed in text data is positive, negative, or neutral.
+Welcome to the **Sentiment Analysis Project** where we explore public opinions and establish the sentiment in them using pretrained, cutting-edge, deep learning models. These models will be deployed using Gradio to huggingface. Sentiment analysis is also known as opinion mining. It is the process of determining if the emotional tone or sentiment expressed in the input text of users is positive, negative, or neutral.
 
 ![Data Science](https://img.shields.io/badge/Data-Analysis-yellow)
 ![Deep Learning](https://img.shields.io/badge/Machine-Learning-blueviolet)
